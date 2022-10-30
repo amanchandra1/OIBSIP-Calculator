@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: radial-gradient(circle, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    color: brown;
+    text-decoration: underline;
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.main{
+    
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    
+    
+}
+.main1{
+    background-color: chartreuse;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.screen{
+    border-radius: 4px 4px 0px 0px;
+    border:solid black;
+    border-width: 2px 2px 0px 2px;
+    height: 7rem;
+    background-color: rgb(45, 45, 45);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    /* width: 23rem; */
+    height: 22rem;
+    background-color:rgb(45, 45, 45);
+    border-radius: 0px 0px 4px 4px;
+    border:solid rgb(44, 44, 44);
+    border-width: 0px 2px 2px 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.b{
+    width: 75px;
+    height: 59px;
+    border-radius: 10px;
+    margin: 5px;
+    border: 2px solid rgb(53, 53, 53);
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+.b1{
+    background-color: rgb(255, 180, 41);
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+.b2{
+    background-color: gray;
+    font-weight: bold;
+}
+.b3{
+    background-color: red;
+    font-weight: bold;
+}
+.scr{
+    
+    padding: 35px 1px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 29px;
+}
+.end{
+    width: 100%;
+    height: 7rem;
+    background-color: rgb(42, 64, 79);
+    position: relative;
+    bottom: 0px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-bottom: 25px;
+    
+}
+.img{
+    width: 1.5rem;
+}
+@media(max-width: 407px){
+    .b{
+        width: 60px;
+        height: 59px;}
+    .main1{
+        background-color: chartreuse;
+        padding-left: 20px;
+        width: 21rem;}
+    .scr{
+        font-size: 21px;
+        padding: 30px 2px;}
+    
+}
+
+@media(max-width: 310px){
+    .b{
+        width: 53px;
+        height: 59px;}
+    .main1{
+        background-color: chartreuse;
+        padding-left: 35px;
+        width: 20rem;}
+    .scr{
+        font-size: 21px;
+        padding: 30px 2px;}
+    
+}
